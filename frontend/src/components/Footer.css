@@ -1,0 +1,40 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.footer.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Adjustments for very small devices */
+@media (max-width: 600px) {
+  .footer {
+    padding: 0.5rem 0; /* Smaller padding */
+    font-size: 0.8rem; /* Smaller font size */
+  }
+}
+
+/* Additional media query for medium devices (e.g., tablets, large phones) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .footer {
+    padding: 0.75rem 0; /* Slightly larger padding than small devices */
+    font-size: 0.9rem; /* Adjust font size for readability */
+  }
+}
+
+/* Ensure visibility */
+.footer {
+  opacity: 1; /* Make sure footer is visible by default */
+  transform: translateY(0); /* Position footer correctly */
+}
