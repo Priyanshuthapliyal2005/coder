@@ -22,7 +22,7 @@ The application follows a client-server architecture where the frontend and back
 
 ### Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/dcbc9e07-0ba2-4c83-b27a-3c14e1ea8a3b)
+![image](https://github.com/user-attachments/assets/8adc81c9-0eec-4faf-bc3d-fd7677d89e61)
 
 ### Components
 
